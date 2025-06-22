@@ -1,0 +1,5 @@
+a=int(input('Enter a:'))
+r=int(input('Enter r:'))
+n=int(input('Enter n:'))
+res= a*r**(n-1)
+print(res)
