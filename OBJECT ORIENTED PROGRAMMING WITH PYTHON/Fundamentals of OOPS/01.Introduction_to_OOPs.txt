@@ -1,0 +1,21 @@
+Procedural Programming is a method of organizing your code by dividing it into a set of functions . These functions can call each other to perform various tasks, enhancing code reusability and efficiency.
+
+For example, if you need to find the maximum or minimum element in an array or list, you can create separate functions like Max and Min . These functions can be reused multiple times without rewriting the same code, making your program easier to manage.
+
+In Procedural Programming, you start with a main function that calls other functions as needed. Each function performs a specific task and can call other functions to accomplish more complex operations. This approach helps in managing larger codebases by breaking them down into smaller, manageable pieces.
+
+However, as your software grows and involves multiple entities with various fields , Procedural Programming can become cumbersome. For instance, if you're developing software for a university system with entities like students , faculty , and courses , you would need to pass large amounts of data between functions, leading to complex and hard-to-maintain code.
+
+Object-Oriented Programming
+Object-Oriented Programming ( OOP ) offers a better way to organize your code, especially for larger and more complex software systems. Instead of dividing your code into functions, OOP breaks it down into a set of entities or objects . Each object represents a real-world entity and contains both data and methods that operate on that data.
+
+For example, in a university system, you can create separate classes for Student , Faculty , and Course . Each class encapsulates all the relevant data and methods related to that entity.
+
+A Student class might include:
+
+name
+address
+mobile number
+course taken
+professor teaching
+By bundling data and methods together within classes, OOP reduces the need to pass large amounts of data between functions. Objects can interact with each other by calling each other's methods, which simplifies the overall structure of the code.
