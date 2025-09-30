@@ -1,1 +1,1 @@
-My Python learning activity with practice codes.
+My Python learning activity with practice codes and projects.
